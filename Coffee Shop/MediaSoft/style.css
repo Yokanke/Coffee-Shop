@@ -1,0 +1,958 @@
+@font-face {
+    font-family: "Jost-Bold";
+    src: url("fonts/Jost-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: "Jost-ExtraBold";
+    src: url("fonts/Jost-ExtraBold.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: "Jost-Regular";
+    src: url("fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: "Jost-SemiBold";
+    src: url("fonts/Jost-SemiBold.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    margin: 0;
+}
+/*Alowishus Delicious Coffee */
+header{
+    background-color: #EEEFF1;
+    display: flex;
+    justify-content: center;
+}
+.Header-Menu{
+    padding: 27px 10px;
+    width: 1240px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header-Menu-Logo img{
+    width: 126px;
+    height: 50px;
+}
+.Header-Menu-Nav{
+    display: flex;
+    align-items: center;
+}
+.Header-Menu-Text{
+    display: flex;
+    margin-left: 20px;
+}
+.Header-Text-Element{
+    color: #1B1B1D;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    text-align: left;
+}
+.Header-Text-Element:first-child{
+    margin-left: 0px;
+}
+.Header-Menu-Basket{
+    width: 56px;
+    height: 56px;
+    border-radius: 26px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.Header-Menu-Basket img{
+    width: 24px;
+    height: 24px;
+    padding: 2.5px 2px 2px 2px;
+}
+.Header-Menu-Basket:hover {
+    background-color: #686767;
+    transition: 1s;
+}
+.Header-Menu-Button{
+    width: 208px;
+    height: 56px;
+    background-color: #1B1B1D;
+    border: none;
+    border-radius: 63px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.Header-Menu-Button:hover {
+    background-color: #4d4d4d;
+    transition: 1s;
+  }
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.MainWrap{
+    position: relative;
+    display: flex;
+    width: 1240px;
+    height: 1046px;
+}
+.MainWrap h1{
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 140px;
+    text-align: left;
+    color: #1B1B1D;
+    font-family: "Jost", bold;
+    width: 597px;
+    height: 420px;
+}
+.MainWrap-Left{
+    display: flex;
+    flex-direction: column;
+}
+.MainWrap-Left span{
+    width: 530px;
+    height: 70px;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    color: #64646A;
+}
+.MainWrap-Main-Button{
+    width: auto;
+    height: 70px;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    border-radius: 126px;
+    background-color: #1B1B1D;
+    color: white;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.MainWrapMain-Button:hover {
+    background-color: #4d4d4d;
+    transition: 1s;
+  }
+.MainWrap-Button{
+    width: 121px;
+    height: 26px;
+    color: #1B1B1D;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.01px;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainWrap-Button a{
+    color: #1B1B1D;
+    width: 100px;
+    height: 26px;
+    border-bottom-width: 4px;
+    border-bottom-color: #1B1B1D;
+    border-bottom-style: solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.MainWrap-Buttons{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+hr{
+    width: 100px;
+    border: 1px solid #1B1B1D;
+}
+
+.MainDescription{
+    background-color: #EEEFF1;
+    display: flex;
+    justify-content: center;
+}
+
+.MainRaiting{
+    position: absolute;
+    width: 272.1px;
+    height: 140px;
+    background-color: #FFFFFF;
+    top: 391px;
+    left: 602.76px;
+    gap: 0px;
+    border-radius: 24px;
+}
+.MainRaitingWrapStars{
+    width: 180px;
+    height: 36px;
+    gap: 0px;
+    display: flex;
+    opacity: 0px;
+}
+.MainRaitingWrap{
+    width: 232px;
+    height: 100px;
+    top: 411px;
+    left: 626.08px;
+    gap: 12px;
+    opacity: 0px;
+    padding-left: 23px;
+    padding-top: 20px;
+}
+.MainRaitingWrap span{
+    font-family: "Jost", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #64646A;
+}
+.MainRaitingWrap-txt{
+    margin-top: 12px;
+}
+.MainRaitingWrapCafe{
+    width: 139.94px;
+    height: 113px;
+    top: 25px;
+    left: 1067.27px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+/*Explore Our Alowishus*/
+.ExploreOurAlowishus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ExploreOurAlowishusMain-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70dvw;
+    margin: auto;
+    gap: 24px;
+  }
+  .ExploreOurAlowishus-txt {
+    font-family: "Jost-ExtraBold";
+    font-size: 64px;
+    color: #1b1b1d;
+  }
+  .ExploreOurAlowishusSecond-txt {
+    font-family: "Jost-Regular";
+    font-size: 24px;
+    width: 604px;
+    text-align: center;
+    color: #64646a;
+  }
+  .OurCategory {
+    display: flex;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .OurCategorySlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 394px;
+    height: auto;
+    box-shadow: 0px 30px 60px rgba(162.88, 168.09, 178.50, 0.15);
+    margin-right: 30px;
+    border-radius: 20px;
+    padding-top: 40px;
+  }
+  .OurCategorySlide:last-child {
+    margin-right: 0px;
+  }
+  .OurCategorySlideText {
+    font-family: "Jost-SemiBold";
+    font-size: 36px;
+    color: #1b1b1d;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .OurCategorySlideTextMini {
+    font-family: "Jost-ExtraBold";
+    font-size: 24px;
+    color: #64646a;
+    margin-top: 8px;
+  }
+  
+  .OurCategorySlidePhoto {
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+  }
+  
+  .OurCategorySlideButton {
+    background-color: #1b1b1d;
+    margin-top: 60px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 126px;
+    border: none;
+    transition: 1s;
+    margin-bottom: 20px;
+  }
+  .OurCategorySlideButton:hover {
+    background-color: #4d4d4d;
+    transition: 1s;
+  }
+  .OurCategorySlideButtonText {
+    color: #ffffff;
+    font-family: "Jost-Regular";
+    font-size: 18px;
+  }
+/*Order Your Favourite Coffee*/
+footer, section {
+    width: 75%;
+    margin: auto;
+    padding: 5dvw;
+}
+.OrderNow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.OrderNow-img {
+    width: 35dvw;
+}
+.OrderNow-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.OrderNowTitle {
+    color: #1B1B1D;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    word-wrap: break-word;
+}
+.OrderNow-txt {
+    width: 100%;
+    color: #64646A;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+.OrderNowButton {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1B1B1D;
+    border: none;
+    color: #fff;
+    width: 173px; 
+    height: 70px;
+    border-radius: 126px;
+    transition: 1s;
+}
+
+.OrderNowButton:hover {
+    background-color: #4d4d4d;
+    transition: 1s;
+  }
+
+@media (max-width: 1024px) {
+    footer, section {
+        width: 90%;
+        padding: 4dvw;
+    }
+    .ff {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .header-img {
+        width: 50dvw;
+        margin: auto;
+    }
+    .header__menu__text {
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .star{
+        width: 10dvw;
+    }
+    .rs_text {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .MainWrap-Right{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-img{
+        width: 60dvw;
+    }
+    .header__menu__text {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .MainWrap-Right{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    footer, section {
+        width: 95%;
+        padding: 3dvw;
+    }
+    .OrderNow-img {
+        width: 80dvw;
+    }
+    .OrderNowTitle {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .MainWrap-Right{
+        display: none;
+    }
+    h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .OrderNowButton {
+        width: 130px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer, section {
+        width: 90%;
+        padding: 4dvw;
+    }
+    .OrderNow {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .OrderNow-img {
+        width: 50dvw;
+        margin: auto;
+    }
+    .OrderNowTitle {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .OrderNowText {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .OrderNow-img {
+        width: 60dvw;
+    }
+    .OrderNowTitle {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .OrderNowText {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .OrderNowButton {
+        width: 150px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer, section {
+        width: 95%;
+        padding: 3dvw;
+    }
+    .OrderNow-img {
+        width: 80dvw;
+    }
+    .OrderNowTitle {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .OrderNowText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .OrderNowButton {
+        width: 130px;
+        height: 50px;
+    }
+}
+/*What Our Customers Say*/
+*{font-family: "Jost-Regular";}
+.Reviews {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+.Reviews h2{
+    font-family: "Jost-ExtraBold";
+    font-size: 64px;
+}
+.ReviewsIntro{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ReviewsRating {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.ReviewsStar{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.ReviewsStar-img{
+    width: 30px;
+    height: 30px;
+}
+.ReviewsScore{
+    font-family: "Jost-Bold";
+    display: flex;
+    font-size: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 24px;
+}
+.ReviewsText{
+    font-size: 20px;
+    display: flex;
+}
+.ReviesSwiper{
+    display: flex;
+    align-items: center;
+    width: 90dvw;
+    justify-content: center;
+}
+.ReviesSwiperContainer {
+    max-width: 60%; 
+    position: relative;
+    overflow: hidden; 
+}
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+.swiper-slide {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    height: auto;
+    font-size: 1.042dvw;
+}
+.swiper-slide p{
+    height: 20%;
+    width: 80%;
+    font-size: 18px;
+}
+.SwiperName{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 10%;
+  flex-wrap: wrap;
+}
+.SwiperImg {
+    width: 26.042dvw; 
+    height: 16.875dvw; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.swiper-slide h3 {
+    margin: 0;
+}
+.Brooklyn{
+    font-size: 24px;
+}
+.Imam{
+    font-size: 24px;
+}
+.ReviesSwiperSlide p {
+    font-size: 14px;
+    color: #666;
+    text-align: center; 
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 3dvw;
+    height: 3dvw;
+    color: #000;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 90px;
+    padding: 0;
+    z-index: 10;
+    background: rgba(252, 231, 231, 0.8); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-next {
+    right: -40px; 
+}
+.swiper-button-prev {
+    left: -40px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 2dvw;
+}
+@media (max-width: 1024px) {
+    .Brooklyn{
+        font-size: 10px;
+    }
+    .swiper-slide p {
+        height: 20%;
+        width: 80%;
+        font-size: 10px;
+    }
+    .Imam {
+        font-size: 14px;
+    }
+    .ReviewsStar-img {
+        width: 15px;
+        height: 15px;
+    }
+    .ReviewsText {
+        font-size: 10px;
+        display: flex;
+    }
+    .ReviewsScore {
+        font-size: 20px;
+    }
+    .Reviews h2 {
+        font-family: "Jost-ExtraBold";
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+/*Footer*/
+footer {
+    width: 75%;
+    margin: auto;
+    padding: 5dvw;
+}
+.footerMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.footerMain {
+    justify-self: end;
+}
+.footerAbout .footerAbout-img {
+    width: 307px;
+    margin-bottom: 40px;
+}
+.footerMailing .footerMailing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1B1B1D;
+    border: none;
+    color: #fff;
+    width: 173px; 
+    height: 70px;
+    font-weight: 400;
+    border-radius: 126px;
+    cursor: pointer;
+    scale: 1;
+    transition: all 10ms ease;
+}
+.footerMailing .footerMailing-button:hover {
+    scale: 1.05;
+    background: #3a3a3d;
+    transition: all 100ms ease;
+}
+.footerMailing .footerMailing-button:active {
+    scale: 0.9;
+    transition: all 10ms ease;
+}
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.footerCopyright-text {
+    color: #64646A;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.footerCopyright-textBold {
+    font-weight: 600;
+    color: #000;
+}
+.footerCopyright-links {
+    display: flex;
+    gap: 12px;
+}
+.footerCopyright-link {
+    text-decoration: none;
+}
+.footerCard {
+    width: fit-content;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.footerCard:nth-child(even) {
+    justify-self: end;
+}
+.footerTitle {
+    color: #1B1B1D;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    word-wrap: break-word;
+}
+.footerText {
+    width: 100%;
+    color: #64646A;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+.footerLink {
+    display: inline-flex;
+    text-decoration: none;
+    color: #1B1B1D;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.footerLink-arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    transition: all 600ms ease;
+}
+.footerLink:hover .footerLink-arrow {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    transition: all 600ms ease;
+}
+.footerButton {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    background: #fff;
+    gap: 24px;
+    transition: all 400ms ease;
+}
+.footerButton:hover .footerButton-img {
+    scale: 1.2;
+    transition: all 400ms ease;
+}
+.footerButton-img {
+    transition: all 400ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 12px 30px rgba(204, 209, 213, 0.28); 
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+}
+.footerButton-img img {
+    width: 28px;
+    height: 28px;
+}
+.footerInput {
+    padding: 30px;
+    color: #64646A; 
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+    opacity: 0.7;
+    width: 100%;
+    max-width: 413px;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 12px 30px rgba(204, 209, 213, 0.28);
+    border-radius: 65px;
+}
+.footerInput:focus {
+    outline: none;
+    border: none;
+    opacity: 1;
+}
+.footerInput:hover {
+    outline: none;
+    border: none;
+    opacity: 1;
+}
+.footerBreakLine {
+    margin: 80px 0px 40px 0px;
+    opacity: 0.10; 
+    border: 1px #1B1B1D solid;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 0;
+    }
+    .footerMain {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .footerCard:nth-child(even) {
+        justify-self: start;
+    }
+    .footerAbout .footerAbout-img {
+        width: 100%;
+        max-width: 200px;
+    }
+    .footerTitle {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footerText {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footerCopyright-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 0;
+    }
+    .footerMain {
+        gap: 20px;
+    }
+    .footerCard:nth-child(even) {
+        justify-self: start;
+    }
+    .footerAbout .footerAbout-img {
+        margin-bottom: 20px;
+    }
+    .footerTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footerText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .footerCopyright-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footerLink {
+        font-size: 16px;
+    }
+    .footerLink-arrow img {
+        width: 25px;
+        height: 25px;
+    }
+    .footerButton-img {
+        width: 40px;
+        height: 40px;
+    }
+    .footerButton-img img {
+        width: 20px;
+        height: 20px;
+    }
+}
